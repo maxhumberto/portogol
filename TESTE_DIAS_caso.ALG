@@ -1,33 +1,28 @@
 Algoritmo "teste_dias"
 
-
 Var
-   x: inteiro
-   dia: caractere
-
-
-
+   x : inteiro
+   dia : caractere
+   
 Inicio
-       escreval("escreva numero de um dia de 1 a 7")
       leia(x)
       escolha x
       caso 1
-      dia <- "domingo."
+      dia <- "domingo"
       caso 2
-      dia <- "segunda."
+      dia <- "segunda"
       caso 3
-      dia <- "terca."
+      dia <- "terca"
       caso 4
-      dia <- "quarta."
+      dia <- "quarta"
       caso 5
-      dia <- "quinta."
+      dia <- "quinta"
       caso 6
-      dia <- "sexta."
+      dia <- "sexta"
       caso 7
-      dia <- "sabado."
+      dia <- "sabado"
       outrocaso
-      dia <- "valor invalido."
-fimescolha
-          escreval("Dia da semana ", dia)
-
-Fimalgoritmo
+      dia <- "valor invalido"
+      fimescolha
+      escreval("Dia da semana: ", dia)
+      Fimalgoritmo
