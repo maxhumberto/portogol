@@ -1,7 +1,7 @@
 Algoritmo "glicose"
 
 Var
-   glicose : inteiro
+   glicose : real
 
 
 Inicio
